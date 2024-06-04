@@ -1,12 +1,9 @@
 {
   "name": "telegram-bot-starter",
-  "type": "module",
   "version": "1.0.0",
   "description": "Telegram Bot Starter with JavaScript and Grammy",
-  "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/bot.js",
-    "start": "node src/bot.js"
+    "start": "ts-node src/bot.ts"
   },
   "author": "MichaelYuhe",
   "license": "MIT",
@@ -14,7 +11,6 @@
     "grammy": "^1.21.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.0",
     "typescript": "^5.4.5"
   }
 }
